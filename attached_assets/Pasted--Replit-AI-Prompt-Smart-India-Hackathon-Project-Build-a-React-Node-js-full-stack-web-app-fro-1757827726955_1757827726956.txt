@@ -1,0 +1,144 @@
+🚀 Replit AI Prompt — Smart India Hackathon Project
+
+Build a React + Node.js full-stack web app (frontend: React + Tailwind, backend: Node/Express).
+This is a prototype for a gamified platform to promote sustainable farming practices (based on Smart India Hackathon problem statement).
+
+🎯 Goal of the Project
+
+Farmers in India (esp. Tamil Nadu & Kerala) face issues like post-harvest losses, poor storage, labour scarcity, weak market access, overuse of chemicals, and climate variability.
+
+Existing awareness/training methods fail because they lack continuous engagement, incentives, and community participation.
+
+The goal of this hackathon project is to create a gamified learning and engagement platform that:
+
+Educates farmers through short lessons in local languages.
+
+Motivates adoption of sustainable practices via challenges, rewards, and leaderboards.
+
+Connects farmers with markets, price info, alerts, and post-harvest resources.
+
+Works on low-data smartphones with offline/IVR fallback.
+
+🎨 UI Guidelines
+
+Clean, minimal white background.
+
+Rounded corners (2xl), soft shadows.
+
+Buttons with accent colors (green, blue, orange).
+
+Grid-based responsive layout.
+
+Use TailwindCSS for styling.
+
+📌 Core Modules
+
+Dashboard
+
+Stats cards (points, level, active challenge).
+
+Navigation to modules.
+
+Micro-Lessons
+
+Cards with title + description.
+
+Open page/modal with lesson content + video placeholder.
+
+Challenges
+
+List active challenges with dummy progress bars.
+
+“Submit Proof” button (image upload or dummy).
+
+Rewards
+
+Catalog of badges, vouchers, subsidized inputs.
+
+Dummy redeem system (updates points locally).
+
+Community Leaderboard
+
+Table with farmer names, ranks, points.
+
+Highlight current user.
+
+Market Dashboard
+
+Crop price table (Rice, Tomato, Banana with dummy data).
+
+Filter option.
+
+Dummy “Transport Request” button.
+
+Alerts & Tips
+
+Notifications panel.
+
+Sample alerts (weather forecast, market price changes).
+
+🛠 Backend
+
+Node.js + Express server.
+
+REST API endpoints: /lessons, /challenges, /rewards, /leaderboard, /market, /alerts.
+
+Serve sample JSON data (replaceable later).
+
+Modular route structure.
+
+🧪 Dummy Data Examples
+
+Lessons: "Soil Health Basics", "Pesticide Safety", "Storage Methods".
+
+Challenges: "Soil Test Week (40%)", "Pest-Free Plot (70%)".
+
+Leaderboard: Rajesh (120 pts), Meena (100 pts), Arjun (80 pts), Current User (65 pts).
+
+Market: Rice ₹1800/qtl, Tomato ₹25/kg, Banana ₹40/kg.
+
+Alerts: "Rain forecast tomorrow", "Tomato price +5%".
+
+🔄 Extendability
+
+Reusable components: Card, Table, Modal.
+
+Frontend pulls live data from backend endpoints.
+
+Easy to update lessons, challenges, or prices via JSON/DB.
+
+🌐 Hosting Setup
+
+Frontend (React):
+
+Deployable to Vercel or Netlify (default).
+
+GitHub Pages fallback option.
+
+Backend (Node/Express):
+
+Deployable to Render, Railway.app, or Heroku.
+
+Include Procfile + correct start script in package.json.
+
+README.md must include:
+
+Steps to deploy frontend (Vercel/Netlify/GitHub Pages).
+
+Steps to deploy backend (Render/Heroku/Railway).
+
+How to connect frontend to deployed backend by updating API URL.
+
+🚀 Deliverables
+
+Complete working full-stack codebase.
+
+Sample data populated.
+
+Mobile-friendly modern UI.
+
+Hosting-ready with instructions.
+
+Run locally via npm install && npm start.
+
+⚡ Generate the entire codebase + hosting instructions, so the app can be directly deployed and shared as a public web link.
